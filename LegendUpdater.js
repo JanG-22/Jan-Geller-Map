@@ -7,7 +7,7 @@ class LegendUpdater {
         let startYText = 9.5;
         let zeilenAbstand = 1.5;
         let maxZeichen = 30;
-        let writer = new SvgTextWriter();
+        let writer = new SVGTextWriter();
 
         writer.write(textGroup, textX, startYText, "INFO:", "legende-titel", 1.3);
         let schriftGroesse = name.length > 15 ? 0.9 : 1.1;
