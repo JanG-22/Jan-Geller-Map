@@ -7,7 +7,7 @@ class LegendStandard {
         let startYText = 9.5;
         let zeilenAbstand = 1.3;
         let maxZeichen = 24;
-        let writer = new SvgTextWriter();
+        let writer = new SVGTextWriter();
 
         writer.write(textGroup, textX, startYText, "Was ist ein", "legende-titel", 1.2);
         writer.write(textGroup, textX, startYText + 1.4, "Kartogramm?", "legende-titel", 1.2);
