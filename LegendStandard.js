@@ -9,8 +9,8 @@ class LegendStandard {
         let maxZeichen = 24;
         let writer = new SVGTextWriter();
 
-        writer.write(textGroup, textX, startYText, "Was ist ein", "legende-titel", 1.2);
-        writer.write(textGroup, textX, startYText + 1.4, "Kartogramm?", "legende-titel", 1.2);
+        writer.write(textGroup, textX, startYText, "What is a ", "legende-titel", 1.2);
+        writer.write(textGroup, textX, startYText + 1.4, "Cartogram?", "legende-titel", 1.2);
 
         startYText += 4.0;
         let woerter = infoTextStandard.split(' ');
