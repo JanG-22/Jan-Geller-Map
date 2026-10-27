@@ -6,7 +6,7 @@ let endY = 49;
 let aktuellesKuerzel = null;
 let dynamischeZusatzInfos = {};
 
-let infoTextStandard = "Kartogramme verzerren die Form geografischer Regionen, sodass das Gebiet direkt eine Datenvariable kodiert. Ein häufiges Beispiel ist, jedes Land der Welt proportional zur Bevölkerung oder zum BIP zu messen. Kann durch Kreise, Quadrate oder verzerrte Karten durch Manipulation der Anfangskarte erreicht werden.              Ein Kästchen = 400 km²";
+let infoTextStandard = "Cartograms distort the shape of geographic regions so that the area directly represents a data variable. A common example is to scale each country in the world proportionally to its population or GDP. This can be achieved using circles, squares, or distorted maps created by manipulating the original map.              One square = 400 km²";
 
 let namenUebersetzung = {
     'm': 'Meer', 'l': 'Nachbarland', 'A': 'Schleswig-Holstein', 'B': 'Berlin',
