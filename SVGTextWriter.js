@@ -1,5 +1,5 @@
 // Text-Knoten bauen
-class SvgTextWriter {
+class SVGTextWriter {
     write(parent, x, y, textInhalt, extraKlasse, groesse) {
         let textNode = document.createElementNS("http://www.w3.org/2000/svg", "text");
         textNode.setAttribute("x", x);
